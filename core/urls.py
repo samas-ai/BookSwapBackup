@@ -26,4 +26,7 @@ urlpatterns = [
 
     # Rota para verificação de books
     path('api/v1/books/', include('user.api.v1.router')),
+
+    # Rota para verificação de trades
+    path('api/v1/trades/', include('user.api.v1.router')),
 ]
